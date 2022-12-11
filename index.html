@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/86f1bb20ab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <img src="code.jpg" class="logo" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+
+                    
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()" ></i>
+                
+            </nav>
+            <div class="header-text">
+                <p style="color:black;">UI/UX Designer</p>
+                <h1 style="color:#dd0549a2 ;"> Hi, I'm <span>Vallary</span> <br> from Kenya</h1>
+            </div>
+
+        </div>
+
+    
+    <!---about-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="back.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A Junior UI/UX  software developer<br>for web and Android applications.<br>
+                        Good in Html,Javascript,Php,Kotlin,<br>Flutter,Python and Django Framework.
+                     </p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links"onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="=skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span> <br>Web/App Development </li>
+                            <li><span>App Development</span> <br>Building Android IOS Apps</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Current</span><br>Intern/ Student at Zalego Academy</li>
+                            <li><span> 2019-2021</span><br>Intern at Kabete National Polytechnic</li>
+                            <li><span> 2020</span><br>Attachee at Kobby Technologies</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-Current</span><br>Software Development Training at PLP Academy,Zalego Academy</li>
+                            <li><span> 2019-2021</span><br>Certificate in ICT at Kabete National Polytechnic</li>
+                            <li><span> 2012-2016</span><br>Kenya Certificate Of Secondary Education</li>
+                            <li><span> 2004-2011</span><br>Kenya Certificate Of Primary Education</li>
+                           
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="Services-list">
+               
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h3>Web Design</h3>
+                    <p> creation of websites and pages to reflect a company's brand <br>
+                         and information and ensure a user-friendly experience.</p>
+                         <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>  Creating user-centered designs by <br>
+                         understanding business requirements, and user feedback</p>
+                         <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h3>App Design</h3>
+                    <p>  gathers requirements from business systems analysts and end users <br>
+                        responsible for developing and maintaining application programs.</p>
+                         <a href="#">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">Accomplishments</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="alexandra-tran-fS3tGOkp0xY-unsplash.jpg"  width="300" height="300">
+                    <div class="layer">
+                        <h3>Gym Website</h3>
+                        <p>Exercise is king.Nutrition is queen. <br>
+                            Put them together and you've got a kingdom.</p>
+                            <i class="fa-solid fa-up-right-from-square"></i>       
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="abillion-Nf5fSqHm-iY-unsplash.jpg"  width="300" height="300">
+                <div class="layer">
+                    <h3>App Development</h3>
+                    <p> It is an app development that keeps me working all day and night.<br>
+                        People love their girlfriend's, app developers love their app UI. <br>
+                      </p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+
+                        
+                </div>
+            </div>
+            <div class="work">
+                <img src="toa-heftiba-09SxeOdtlPE-unsplash.jpg"  width="300" height="300">
+            <div class="layer">
+                <h3>Coffee Shop Website</h3>
+                <p>The smell of fresh-made coffee is one of the world's greatest inventions.<br>
+                    COFFEE IN ONE HAND, CONFIDENCE IN THE OTHER.
+                    <br></p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+
+                    
+            </div>
+        </div>
+                
+
+
+
+            </div>
+            
+            <a href="#" class="btn">More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0791942112</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="VALLARY ATIENO CV Word document updated.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+
+                    <span id="msg"></span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright@atienovallary </p>
+        </div>
+    </div>
+    </section>
+    
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzoafU7oZotU4z1-b83woQ5Ga-trQQTA6FjPa5c0bQ8cEKWOgqYX8QVoYjMc2sTeixwsw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000) 
+        form.reset ()})
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
